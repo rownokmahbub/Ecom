@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row md:h-screen justify-between items-center">
+    <div className="flex flex-col md:flex-row lg:h-screen justify-between items-center">
     <div className="flex flex-col gap-5">
         <p className='text-[50px] leading-tight font-semibold'>The best place to find <br /> and buy amazing product</p>
         <p className='text-base text-gray-600'>Our new shoe will blow your mind with nice greep

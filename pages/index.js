@@ -1,4 +1,5 @@
 
+import DiscountDeal from "../Components/Home/DiscountDeal";
 import FeaturedCategory from "../Components/Home/FeaturedCategory";
 import Hero from "../Components/Home/Hero";
 import PopularCategory from "../Components/Home/PopularCategory";
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero/>
       <PopularCategory/>
       <FeaturedCategory/>
+      <DiscountDeal/>
     </div>
   );
 }
