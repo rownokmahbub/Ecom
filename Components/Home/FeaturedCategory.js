@@ -99,7 +99,17 @@ const FeaturedCategory = () => {
   const [love, setLove]=useState(false)
   return (
     <div>
+      <div className="flex justify-between items-center flex-col md:flex-row ">
       <p className='text-3xl font-medium '>Featured Category</p>
+      <div className="flex justify-between items-center gap-10 flex-wrap">
+        <p className='p-2 text-white rounded-xl bg-gradient-to-r from-[#37a4e0] to-[#7dc3c1]'>All</p>
+        <p className=''>Laptop</p>
+        <p>Mobile</p>
+        <p>Television</p>
+        <p>Air Condition</p>
+      </div>
+      </div>
+     
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-8 my-10">
           {category.map((ctg,i)=>{
             return(

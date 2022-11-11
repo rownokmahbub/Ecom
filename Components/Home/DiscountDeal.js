@@ -26,7 +26,13 @@ const DiscountDeal = () => {
     }
   ]
   return (
-    <div className=' mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:gap-16 my-10'>
+    <>
+    <div className="flex justify-between">
+    <p className='text-3xl font-medium '>Discount Deal</p>
+    <p className='text-xl text-gray-500 '>See All</p>
+    </div>
+    
+       <div className=' mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:gap-16 my-10'>
       {category.map((ctg,i)=>{
         return(
           <div key={i} className="flex flex-col rounded-xl">
@@ -84,6 +90,8 @@ const DiscountDeal = () => {
     
    
     </div>
+    </>
+ 
   )
 }
 
